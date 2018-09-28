@@ -24,5 +24,17 @@ namespace ASMA
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            if (HiButton.IsChecked == true)
+            {
+                MessageBox.Show("Hello.");
+            }
+            else if (Bye_button.IsChecked == true)
+            {
+                MessageBox.Show("Goodbye.");
+            }
+        }
     }
 }
