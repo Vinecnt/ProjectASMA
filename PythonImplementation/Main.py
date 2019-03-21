@@ -4,7 +4,7 @@ from appJar import  gui
 # app.go()
 
 # create gui and start it
-win = gui("Hello")
+win = gui("Project ASMA")
 
 # code here
 win.addLabel("label", "helloWorld")
@@ -15,7 +15,7 @@ win.setBg("teal")
 win.setFont('13')
 win.setLabelBg('label1', 'yellow')
 win.setLabelFg('label', 'blue')
-win.setSize("200x400")
+win.setSize("1024x600")
 win.setResizable(False)
 
 
